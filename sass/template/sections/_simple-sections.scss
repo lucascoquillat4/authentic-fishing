@@ -1,0 +1,148 @@
+.social-box {
+  padding: 80px 100px;
+  position: relative;
+  z-index: 1;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9999px;
+    height: 100%;
+    background-color: rgba(#000, 0.07);
+    z-index: -1;
+  }
+
+  &__title {
+    color: $white-color;
+    margin: -0.2em 0 10px 0;
+    font-size: 34px;
+  }
+}
+
+.social-box,
+.info-social {
+  a {
+    display: inline-block;
+    color: $white-color;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid $white-color;
+    font-size: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover {
+      background-color: $secondary-color;
+      color: $white-color;
+      border-color: transparent;
+    }
+  }
+}
+
+.info-social { 
+  &.style2 {
+    a {
+      border-color: $smoke-color;
+      color: $smoke-color;
+
+      &:hover {
+        color: $white-color;
+        background-color: $title-color;
+        border-color: $title-color;
+      }
+    }
+  }
+  &.style3{
+    a{
+      background-color: $secondary-color;
+      border-color: $secondary-color;
+      color: $white-color;
+      &:hover {
+        color: $white-color;
+        background-color: $title-color;
+        border-color: $title-color;
+      }
+    }
+  }
+}
+
+@include ml {
+  .social-box {
+    padding: 60px 50px;
+  }
+}
+
+
+@include lg {
+  .social-box {
+    padding: 40px 40px;
+
+    &__title {
+      font-size: 26px;
+    }
+  }
+
+  .award-wrap1 {
+    padding: 80px 20px 10px 20px;
+  }
+
+  .award-wrap-title {
+    max-width: 740px;
+  }
+
+  .award-style1 {
+    padding: 30px 20px 30px 20px;
+
+    .award-text {
+      font-size: 14px;
+    }
+
+    .award-img {
+      min-height: 100px;
+      line-height: 100px;
+    }
+  }
+
+}
+
+@include md {
+  .social-box {
+    &::before {
+      width: 100%;
+    }
+  }
+
+  .award-wrap-title {
+    max-width: 520px;
+    padding: 21px 20px;
+    margin-bottom: -30px;
+  }
+
+  .award-wrap1 {
+    padding: 70px 20px 10px 20px;
+  }
+}
+
+@include sm {
+  .social-box {
+    padding: 40px 20px;
+  }
+
+  .info-social,
+  .social-box {
+    a {
+      width: 50px;
+      height: 50px;
+      line-height: 52px;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@media only screen and (min-width: 1300px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: calc(var(--main-container) + var(--container-gutters));
+    padding-left: calc(var(--container-gutters) / 2);
+    padding-right: calc(var(--container-gutters) / 2);
+  }
+}
+
+.vs-container1{
+  max-width: calc(var(--vs-container1) + var(--container-gutters));
+  padding-left: calc(var(--container-gutters) / 2);
+  padding-right: calc(var(--container-gutters) / 2);
+  margin: 0 auto;
+}
+.vs-container2{
+  max-width: calc(var(--vs-container2) + var(--container-gutters));
+  padding-left: calc(var(--container-gutters) / 2);
+  padding-right: calc(var(--container-gutters) / 2);
+  margin: 0 auto;
+}
+.vs-container3{
+  max-width: calc(var(--vs-container3) + var(--container-gutters));
+  padding-left: calc(var(--container-gutters) / 2);
+  padding-right: calc(var(--container-gutters) / 2);
+  margin: 0 auto;
+}
+.vs-container4{
+  max-width: calc(var(--vs-container4) + var(--container-gutters));
+  padding-left: calc(var(--container-gutters) / 2);
+  padding-right: calc(var(--container-gutters) / 2);
+  margin: 0 auto;
+}
+@media only screen and (max-width: 1600px) {
+  .container-fluid.px-0 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+    .row {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
+  }
+}

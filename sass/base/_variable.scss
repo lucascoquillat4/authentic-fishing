@@ -1,0 +1,125 @@
+:root {
+  --theme-color         : #0F6BAC;
+  --secondary-color     : #37AFE3;
+  --title-color         : #010F30;
+  --body-color          : #364863;
+  --border-color        : #85B7FE;
+  --smoke-color         : #ECF5FB;
+  --white-color         : #ffffff;
+  --black-color         : #000000;
+  --yellow-color        : #fec624;
+  --success-color       : #28a745;
+  --error-color         : #dc3545;
+  --title-font          : 'Exo', sans-serif;
+  --body-font           : 'Inter', sans-serif;
+  --icon-font           : 'Font Awesome 5 Pro';
+  --main-container      : 1220px;
+  --vs-container1       : 1390px;
+  --vs-container2       : 1858px;
+  --vs-container3       : 1920px;
+  --vs-container4       : 1470px;
+  --container-gutters   : 30px;
+  --section-space       : 120px;
+  --section-space-mobile: 80px;
+  --section-title-space : 80px;
+  --ripple-ani-duration : 5s;
+}
+
+
+// Color Variation
+$theme-color    : var(--theme-color);
+$secondary-color   : var(--secondary-color);
+$title-color    : var(--title-color);
+$body-color     : var(--body-color);
+$border-color   : var(--border-color);
+$title-color    : var(--title-color);
+$smoke-color    : var(--smoke-color);
+$white-color    : var(--white-color);
+$black-color    : var(--black-color);
+$yellow-color   : var(--yellow-color);
+$success-color  : var(--success-color);
+$error-color    : var(--error-color);
+
+
+
+// Font Variation
+$icon-font : var(--icon-font);
+
+// Typography
+$title-font       : var(--title-font);
+$body-font        : var(--body-font);
+$body-font-size   : 16px;
+$body-line-Height : 26px;
+$body-font-weight : 400;
+$p-line-Height    : 1.75;
+
+
+// Device Variation
+$hd: 1921px; // Large Device Than 1920
+$xl: 1500px; // Extra large Device
+$ml: 1399px; // Medium Large Device
+$lg: 1199px; // Large Device (Laptop)
+$md: 991px; // Medium Device (Tablet)
+$sm: 767px; // Small Device
+$xs: 575px; // Extra Small Device
+
+// Spacing Count with 5x
+$space-count: 5;
+
+// Section Space  For large Device
+$space: var(--section-space);
+$space-extra : calc(var(--section-space) - 30px);
+
+// Section Space On small Device
+$space-mobile : var(--section-space-mobile);
+$space-title  : var(--section-title-space);
+$space-mobile-extra: calc(var(--section-space-mobile) - 30px);
+
+
+// BG Color Mapping 
+$bgcolorMap : ();
+$bgcolorMap : map-merge((
+  "theme"   : $theme-color,
+  "secondary-color"  : $secondary-color,
+  "smoke"   : $smoke-color,
+  "white"   : $white-color,
+  "black"   : $black-color,
+  "title"   : $title-color,
+  "body"    : $body-color,
+
+), $bgcolorMap);
+
+
+// Overlay Color Mapping 
+$overlaycolorMap : ();
+$overlaycolorMap : map-merge((
+  "theme"        : $theme-color,
+  "title"        : $title-color,
+  "white"        : $white-color,
+  "black"        : $black-color,
+), $overlaycolorMap);
+
+
+// Text Color Mapping 
+$textColorsMap : ();
+$textColorsMap : map-merge((
+  "theme"      : $theme-color,
+  "title"      : $title-color,
+  "secondary"  : $secondary-color,
+  "body"       : $body-color,
+  "white"      : $white-color,
+  "yellow"     : $yellow-color,
+  "success"    : $success-color,
+  "error"      : $error-color,
+  "border"     : $border-color,
+  "smoke"      : $smoke-color,
+  ),$textColorsMap);
+
+
+// Font Mapping 
+$fontsMap : ();
+$fontsMap : map-merge((
+  "icon"  : $icon-font,
+  "title" : $title-font,
+  "body"  : $body-font,
+), $fontsMap);

@@ -1,0 +1,114 @@
+.about-img{
+   position: relative;
+}
+
+.vs-container_style2 {
+   max-width: 1570px;
+   margin-left: 0;
+   padding-left: 0;
+}
+
+.img-box2{
+   position: relative;
+   a{
+      i{
+         color: $theme-color;
+      }
+   }
+  .style2{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 4;
+  }
+}
+.media-style2{
+   display: flex;
+   position: relative;
+   margin-bottom: 30px;
+
+   .media-icon{
+      background-color: $theme-color;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      line-height: 74px;
+      text-align: center;
+      margin-right: 30px;
+      position: relative;
+      transition: all 0.4s ease;
+      .number{
+         width: 25px;
+         height: 25px;
+         line-height: 25px;
+         border-radius: 50%;
+         color: $white-color;
+         background-color: $secondary-color;
+         display: block;
+         position: absolute;
+         top: 0;
+         transition: all 0.4s ease;
+      }
+      &:hover{
+         background-color: $secondary-color;
+         .number{
+            background-color: $theme-color;
+         }
+      }
+      &::after{
+         content: "";
+         height: 52px;
+         position: absolute;
+         width: 1px;
+         background-color: $theme-color;
+         bottom: -92px;
+         left: 50%;
+         transform: translateY(-50%);
+      }
+   }
+   .media-title{
+      font-size: 30px;
+      line-height: 32px;
+   }
+   .media-body{
+      margin-top: 20px;
+   }
+
+   &:last-child{
+      margin-bottom: 0;
+      .media-icon{
+         &::after{
+            content:"";
+            display: none;
+         }
+      }
+      .media-text{
+         margin-bottom: 0;
+      }
+   }
+}
+.works-shape {
+   right: 0;
+   top: -2%;
+}
+
+@include md{
+   .img-box2 {
+      margin-bottom: 30px;
+  }
+  .media-style2 {
+   padding: 0 15px;
+   }
+}
+@include sm{
+   .img-box2 {
+      margin-bottom: 30px;
+  }
+  .media-style2 {
+   padding: 0 10px;
+      .media-icon{
+         margin-right: 18px;
+      }
+   }
+}

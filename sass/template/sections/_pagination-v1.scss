@@ -1,0 +1,182 @@
+.vs-pagination {
+  text-align: center;
+  margin-top: 60px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 3px;
+    list-style-type: none;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+
+  span,
+  a {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    border: 1px solid $secondary-color;
+    font-family: $body-font;
+    color: $title-color;
+    background-color: $white-color;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    padding: 0;
+    font-size: 16px;
+    z-index: 1;
+    border-radius: 6px;
+    vertical-align: middle;
+
+    &.active,
+    &:hover {
+      color: $white-color;
+      background-color: $secondary-color;
+      box-shadow: none;
+    }
+  }
+
+}
+
+
+.post-pagination {
+  margin: 50px 0 0 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid $border-color;
+  .pagi-icon{
+    font-size: 40px;
+    color: $border-color;
+    transition: all 0.4s ease;
+    &:hover{
+      color: $theme-color;
+    }
+  }
+}
+
+
+.post-pagi-box {
+  display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 0px;
+  > a {
+    img{
+      border-radius: 6px;
+    }    
+    span{
+      display: inline-block;
+      font-family: $title-font;
+    }
+
+    &:hover {
+      color: $secondary-color
+    }
+  }
+
+  .pagi-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: $title-color;
+    font-family: $title-font;
+    line-height: 30px;
+    flex: 1;
+    transition: all 0.4s ease;
+      &:hover {
+          color: $secondary-color;
+        }
+  }  
+  &.prev{
+    .pagi-title{
+      text-align: left;
+    }
+  }
+  &.next {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+}
+
+
+@include ml {
+  .post-pagination {
+    margin: 40px 0;
+  }
+}
+
+@include lg{
+  .post-pagi-box .pagi-title {
+    font-size: 16px;
+}
+.tagcloud{
+    a{
+    padding: 5px;
+    }
+  }
+}
+@include md {
+  .vs-pagination {
+    span, 
+    a {
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      font-size: 14px;
+      padding: 0 10px;
+      vertical-align: middle;
+
+      i {
+        vertical-align: middle;
+      }
+    }
+    
+  }
+
+  .post-pagi-box {
+    padding: 20px 0px;
+    >a {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+@include sm{
+  .post-pagi-box {
+    padding: 20px;
+    display: block;
+    img{
+      margin-bottom: 10px;
+    }
+    .pagi-title{
+      font-size: 12px;
+      display: block;
+    }
+    
+  }
+  .pagi-icon {
+    display: none;
+  }
+  .tagcloud{
+    a{
+    padding: 5px 10px;
+    }
+  }
+  .post-pagination {
+    margin: 40px 0;
+    padding-bottom: 0;
+}
+}
+
+
+

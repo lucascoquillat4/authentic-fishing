@@ -1,0 +1,367 @@
+.vs-comment-form   {
+  margin: var(--blog-space-y, 40px) 0 var(--blog-space-y, 50px) 0;
+  .form-title {
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+}
+}
+.comment-respond {
+  position: relative;
+  background-color: #ffffff;
+  padding: 15px 0;
+
+  .form-title {
+    a#cancel-comment-reply-link {
+      font-size: .7em;
+      text-decoration: underline;
+    }
+  }
+
+
+  .custom-checkbox.notice {
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+
+  .row {
+    --bs-gutter-x: 20px;
+  }
+
+  .form-control {
+    border: 1px solid $smoke-color;
+    height: 70px;    
+    font-size: 16px;
+    background-color: $smoke-color;
+    border-radius: 10px;
+  }
+  .form-text {
+    margin-bottom: 25px;
+  }
+}
+
+.question-form,
+.review-form {
+  .comment-respond {
+    margin: 0 0 20px 0;
+  }
+
+  .form-control {
+    background-color: transparent;
+    border: 1px solid #e4e4e4;
+  }
+
+  .rating-select {
+    display: flex;
+    align-items: center;
+
+    label {
+      font-weight: 500;
+      color: $title-color;
+    }
+  }
+}
+
+.review-form {
+  display: none;
+}
+
+.comment-section {
+  padding: 50px 0px 5px 0px;
+
+  >.vs-comments-wrap {
+    margin-top: 0;
+  }
+}
+
+.vs-comments-wrap {
+  margin: var(--blog-space-y, 50px) 0 var(--blog-space-y, 50px) 0;
+
+  .blog-inner-title{
+    font-family: $title-font;
+    font-size: 36px;
+    margin-bottom: 36px;
+  }
+
+  .description p:last-child {
+    margin-bottom: 0;
+  }
+
+  .comment-respond {
+    margin: 30px 0;
+  }
+
+  pre {
+    background: #ededed;
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+    overflow: auto;
+    padding: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  blockquote {
+    background-color: #eaf8f9
+  }
+
+  li {
+    margin: 0;
+  }
+
+  .vs-post-comment {
+    padding: 40px 40px 35px 40px;
+    display: flex;
+    margin: 30px 0 30px 0;
+    position: relative;
+    background-color: $smoke-color;
+    border-radius: 10px;
+  }
+
+  ul.comment-list {
+    list-style: none;
+    margin: -10px 0 0 0;
+    padding: 0;
+
+    ul,
+    ol {
+
+      ul,
+      ol {
+        margin-bottom: 0;
+      }
+    }
+
+  }
+
+  .comment-avater {
+    width: 110px;
+    height: 110px;
+    margin-right: 30px;
+    
+    img {
+      width: 100%;
+      border-radius: 50%;
+    }
+  }
+
+  .comment-content {
+    flex: 1;
+    align-self: center;
+  }
+
+  .commented-on {
+    font-size: 14px;
+    font-weight: 400;
+    line-height:28px;
+    font-family: $title-font;
+    color: $body-color;
+    display:block;
+    position: relative;
+    top: -2px;
+    margin-bottom: 5px;
+    i {
+      margin-right: 5px;
+      font-size: 0.9rem;
+    }
+  }
+
+  .name {
+    margin: -0.1em 15px 5px 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: $title-font;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .comment-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .text {
+    color: $body-color;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+
+    &:last-of-type {
+      margin-bottom: -0.25em;
+    }
+  }
+
+  .children {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin-left: 40px;
+  }
+
+  .reply_and_edit {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    line-height: 1;
+  }
+
+  .replay-btn {
+    color: $theme-color;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: $title-font;
+    padding: 9px 15px;
+    i{
+      margin-left: 5px;
+    }
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+
+  .star-rating {
+    font-size: 12px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 80px;
+  }
+
+}
+
+
+.vs-comment-form {
+  margin: 0;
+  &.style2{
+    background-color: $smoke-color;
+    padding: 50px 30px 60px 30px;
+    border-radius: 10px;
+    label{
+      margin-bottom: 0;
+    }
+    .form-group{
+      input,
+      textarea{
+        border: 1px solid $border-color;
+        border-radius: 6px;
+      }
+    }
+    input[type=checkbox] ~ label:before{
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      top: 1.5px;
+      border-radius: 4px;
+    }
+  }
+}
+
+.vs-comments-layout1{
+  .comment-avater{
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+  }
+}
+
+@include ml {
+  .comment-section {
+    padding: 40px 40px 0px 40px;
+  }
+
+  .vs-comments-wrap {
+    .vs-post-comment {
+      padding: 30px 30px 30px 30px;
+      margin: 30px 0 30px 0;
+    }
+
+    .comment-avater {
+      width: 100px;
+      height: 100px;
+      margin-right: 20px;
+    }
+
+    .name {
+      margin: -0.1em 15px 0 0;
+      font-size: 20px;
+    }
+  }
+
+  .comment-respond {
+    padding: 30px 0;
+
+    .form-control {
+      height: 60px;
+      font-size: 14px;
+    }
+  }
+}
+
+@include lg {
+
+  .vs-comments-wrap {
+    .vs-post-comment {
+      display: block;
+      padding: 30px 20px 20px 20px;
+    }
+
+    .star-rating {
+      position: relative;
+      top: 0;
+      right: 0;
+    }
+
+    .comment-top {
+      display: block;
+    }
+
+    .comment-avater {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .children {
+      margin-left: 40px;
+    }
+  }
+}
+
+
+@include sm {
+  .vs-comments-wrap {
+    .children {
+      margin-left: 20px;
+    }
+
+    .name {
+      margin: -0.1em 0 7px 0;
+      font-size: 20px;
+    }
+    
+  }
+  
+  .comment-respond {
+    padding: 20px 10px;
+
+    textarea,
+    input {
+      height: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+    label {
+      font-size: 14px;
+    }
+  }
+
+
+  .comment-section {
+    padding: 40px 20px 0px 20px;
+  }
+
+}

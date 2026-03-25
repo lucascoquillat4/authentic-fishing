@@ -1,0 +1,65 @@
+.brands {
+   position: relative;
+   padding: 80px 70px;
+   transform: translateY(-50%);
+
+   &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 140%;
+      z-index: -1;
+      background-color: $smoke-color;
+      border-radius: 0 30px 30px 0;
+      z-index: 0;
+   }
+
+   &.style2 {
+      transform: unset;
+
+      &::after {
+         display: none;
+      }
+   }
+
+   .bran-img {
+      img {
+         max-width: 120px;
+         max-height: 120px;
+      }
+   }
+}
+
+@include xl {
+   .brands::after {
+      width: 100%;
+      border-radius: 30px;
+   }
+}
+
+@include lg {
+   .brands {
+      transform: translateY(-35%);
+   }
+}
+
+@include md {
+   .brands {
+      overflow: hidden;
+      border-radius: 6px;
+      transform: translateY(-30%);
+      padding: 40px 20px;
+
+      &::after {
+         border-radius: 6px;
+      }
+   }
+}
+
+@include sm {
+   .bran-img {
+      text-align: center;
+   }
+}

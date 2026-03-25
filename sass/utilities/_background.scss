@@ -1,0 +1,44 @@
+@each $bgcolorMap,
+$value in $bgcolorMap {
+  .bg-#{$bgcolorMap} {
+    background-color: #{$value} !important;
+
+    // @include md{
+    //   overflow: hidden;
+    // }
+    
+  }
+}
+
+.background-image,
+[data-bg-src] {
+  @include background-content(no-repeat, cover, center center);
+}
+
+.bg-fluid {
+  @include background-content(no-repeat, 100% 100%, center center);
+}
+
+.bg-auto {
+  background-size: auto auto;
+}
+.shape-dotted {  
+  width: 140px;
+  height: 140px;
+  --dot-color: #{#B9BAB9};
+  background: radial-gradient(circle, transparent 20%, var(--dot-bg, #fff) 20%, var(--dot-bg, #fff) 80%, transparent),
+  radial-gradient(circle, transparent 20%, var(--dot-bg, #fff) 20%, var(--dot-bg, #fff) 0%, var(--dot-color, red)) var(--dot-size, 5.8px) var(--dot-size, 5.8px);
+  // background-color: var(--dot-bg, #fff);
+  background-color: transparent;
+  background-size: calc(var(--dot-size, 5.8px) * 2) calc(var(--dot-size, 5.8px) * 2);
+}
+.shape-dotted2 {  
+  width: 140px;
+  height: 140px;
+  --dot-color: #{#B9BAB9};
+  background: radial-gradient(circle, transparent 20%, var(--dot-bg, #FDFCE8) 20%, var(--dot-bg, #FDFCE8) 80%, transparent),
+  radial-gradient(circle, transparent 20%, var(--dot-bg, #FDFCE8) 20%, var(--dot-bg, #FDFCE8) 0%, var(--dot-color, #FDFCE8)) var(--dot-size, 5.8px) var(--dot-size, 5.8px);
+  // background-color: var(--dot-bg, #fff);
+  background-color: transparent;
+  background-size: calc(var(--dot-size, 5.8px) * 2) calc(var(--dot-size, 5.8px) * 2);
+}

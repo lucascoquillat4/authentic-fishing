@@ -1,0 +1,241 @@
+.footer-widget {
+  margin-bottom: 0px;
+
+  &,
+  .widget {
+    padding: 0;
+    border: none;
+    padding-bottom: 0;
+    background-color: transparent;
+  }
+
+  .footer-time {
+    color: $body-color;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+    .time {
+      display: block;
+    }
+  }
+
+  .widget_title {
+    border: none;
+    font-size: 22px;
+    line-height: 34px;
+    padding: 0;
+    margin-bottom:0;
+    color: $title-color;
+    text-transform: capitalize;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  &.widget_meta,
+  &.widget_pages,
+  &.widget_archive,
+  &.widget_categories,
+  &.widget_nav_menu {
+    margin-bottom: 50px;
+
+    .widget_title {
+      margin-bottom: 35px;
+    }
+
+    a {
+      width: max-content;
+      display: block;
+      border: none;
+      font-size: 16px;
+      font-weight: 400;
+      margin-bottom: 23px;
+      max-width: 100%;
+      padding: 0;
+      background-color: transparent;
+      position: relative;
+
+      &:hover {
+        background-color: transparent;
+        color: $title-color;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        transition: all ease 0.4s;
+        height: 1px;
+        background-color: $secondary-color;
+      }
+
+      &:hover {
+        &:before {
+          width: 100%;
+        }
+      }
+    }
+
+    li {
+      >span {
+        @include equal-size(auto);
+        position: relative;
+        background-color: transparent;
+        color: $body-color;
+        line-height: 1;
+      }
+
+      &:last-child {
+        a {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .sidebar-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.copyright-area {
+  border-top: 1px solid $border-color;
+  padding: 16px 0;
+  .terms-condition  {
+      ul{
+        li{
+          font-family: $title-font;
+          position: relative;
+          padding-right: 15px;
+          &::after{
+            content:"|";
+            position: absolute;
+            color: $border-color;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+          }
+          &:last-child{
+            margin-left: 5px;
+            margin-right: 0;
+            &::after{
+              display: none;
+            }
+          }
+        }
+      }
+  }
+}
+
+
+.footer-address {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $body-color;
+  margin-bottom: 8px;
+  font-family: $title-font;
+  display: flex;
+  align-items: baseline;
+
+  i,img {
+    margin-right: 10px;
+    color: $secondary-color;
+  }
+  img{
+    position: relative;
+    top: -3px;
+  }
+
+}
+
+.footer-address2 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 340px;
+  color: $body-color;
+  margin-bottom: 8px;
+
+  i {
+    margin-right: 8px;
+  }
+}
+.footer-address3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 340px;
+  color: $smoke-color;
+  margin-bottom: 8px;
+
+  i {
+    margin-right: 8px;
+  }
+}
+
+.footer-logo {
+  margin-bottom: 28px;
+  margin-top: -10px;
+}
+
+.footer-text {
+  color: $body-color;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $title-font;
+  margin-top: 30px;
+  line-height: 26px;
+}
+
+.footer-info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  max-width: 300px;
+  color: $smoke-color;
+  font-weight: 500;
+  font-size: 15px;
+  margin-bottom: 8px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@include lg {
+
+  .footer-widget {
+    margin-bottom: 40px;
+
+    .widget_title {
+      font-size: 26px;
+      margin-bottom: 0;
+    }
+
+    &.widget_meta,
+    &.widget_pages,
+    &.widget_archive,
+    &.widget_categories,
+    &.widget_nav_menu {
+      .widget_title {
+        margin-bottom: 25px;
+      }
+
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+@include md {
+  .footer-widget {
+    .widget_title {
+      font-size: 22px;
+    }
+  }
+}

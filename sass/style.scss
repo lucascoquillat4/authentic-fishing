@@ -1,0 +1,238 @@
+
+/*=================================
+    CSS Index Here
+==================================*/
+/*
+01. Theme Base
+    1.1. Mixin
+    1.2. Function
+    1.3. Variable
+    1.4. Typography
+    1.5. Extend
+    1.7. Wordpress Default
+02. Reset
+    2.1. Container
+    2.2. Grid
+    2.3. Input
+    2.4. Slick Slider
+    2.5. Mobile Menu
+03. Utilities
+    3.1. Preloader
+    3.2. Buttons
+    3.3. Titles
+    3.4. Common
+    3.6. Font
+    3.7. Background
+    3.8. Text Color
+    3.9. Overlay
+    3.10. Animation
+04. Template Style
+    4.1. Widget
+    4.2. Header
+    4.3. Footer
+    4.4. Breadcumb
+    4.5. Pagination
+    4.6. Blog
+    4.7. Comments
+    4.8. Hero Area
+    4.9. Error  
+    4.10. Contact
+    4.11. About
+    4.12. Counter
+    4.13. Service
+    4.14. CTA
+    4.15. Package
+    4.16. Project
+    4.17. Brand
+    4.18. Form
+    4.19. Simple Section
+    4.20. Gallery
+    4.21. Testimonial
+    4.22. Feature
+    4.23. Team
+    4.24. Process
+    4.25. Popup Search
+    4.26. Popup Side Menu
+05. Spacing
+
+*/
+/*=================================
+    CSS Index End
+==================================*/
+
+
+/*=================================
+   01. Theme Base
+==================================*/
+/*------------------- 1.1. Mixin -------------------*/
+@import 'base/mixin';
+
+/*------------------- 1.2. Function -------------------*/
+@import 'base/function';
+
+/*------------------- 1.3. Variable-------------------*/
+@import 'base/variable';
+
+/*------------------- 1.5. Typography -------------------*/
+@import 'base/typography';
+
+/*------------------- 1.6. Extend -------------------*/
+@import 'base/extend';
+
+/*------------------- 1.7. Wordpress Default -------------------*/
+// @import 'base/wpdefault';
+
+
+/*=================================
+    02. Reset
+==================================*/
+/*------------------- 2.1. Container -------------------*/
+@import 'reset/container';
+
+/*------------------- 2.2. Grid -------------------*/
+@import 'reset/grid';
+
+/*------------------- 2.3. Input -------------------*/
+@import 'reset/input';
+
+/*------------------- 2.4. Slick Slider -------------------*/
+@import 'reset/slick-slider';
+
+/*------------------- 2.5. Mobile Menu -------------------*/
+@import 'reset/vsmenu';
+
+
+/*=================================
+    03. Utilities
+==================================*/
+/*------------------- 3.1. Preloader -------------------*/
+@import 'utilities/preloader';
+
+/*------------------- 3.2. Buttons -------------------*/
+@import 'utilities/btns';
+
+/*------------------- 3.3. Titles -------------------*/
+@import 'utilities/titles';
+
+/*------------------- 3.4. Common -------------------*/
+@import 'utilities/common';
+
+/*------------------- 3.6. Font -------------------*/
+@import 'utilities/font';
+
+/*------------------- 3.7. Background -------------------*/
+@import 'utilities/background';
+
+/*------------------- 3.8. Text Color -------------------*/
+@import 'utilities/text-color';
+
+/*------------------- 3.9. Overlay -------------------*/
+@import 'utilities/overlay';
+
+/*------------------- 3.10. Animation -------------------*/
+@import 'utilities/animation';
+
+
+/*=================================
+    04. Template Style
+==================================*/
+/*------------------- 4.1. Widget  -------------------*/
+@import 'template/widgets/widget-default-list';
+@import 'template/widgets/widget-sidebar';
+@import 'template/widgets/widget-footer';
+
+
+/*------------------- 4.2. Header  -------------------*/
+@import 'template/headers/header';
+
+/*------------------- 4.3. Footer  -------------------*/
+@import 'template/footers/footer';
+
+/*------------------- 4.4. Breadcumb  -------------------*/
+@import 'template/breadcumb/breadcumb-v1';
+
+/*------------------- 4.5. simple-sections  -------------------*/
+@import 'template/sections/simple-sections';
+
+/*------------------- 4.6. Popup Search  -------------------*/
+@import 'template/sections/popupsearch-v1';
+
+/*------------------- 4.7. sidemenu-v Menu  -------------------*/
+@import 'template/sections/sidemenu-v1';
+
+/*------------------- 4.8. hero  -------------------*/
+@import 'template/sections/hero';
+
+/*------------------- 4.9. Service  -------------------*/
+@import 'template/sections/service';
+
+/*------------------- 4.10. explore  -------------------*/
+@import 'template/sections/explore';
+
+/*------------------- 4.11. counter  -------------------*/
+@import 'template/sections/counter';
+
+/*------------------- 4.12. team  -------------------*/
+@import 'template/sections/team';
+
+/*------------------- 4.13. shop  -------------------*/
+@import 'template/sections/shop';
+
+/*------------------- 4.14. brands  -------------------*/
+@import 'template/sections/brands';
+
+/*------------------- 4.15. gallery  -------------------*/
+@import 'template/sections/gallery';
+
+/*------------------- 4.16. testimonial  -------------------*/
+@import 'template/sections/testimonial';
+
+/*------------------- 4.17. blog  -------------------*/
+@import 'template/sections/blog';
+
+/*------------------- 4.18. subscribe  -------------------*/
+@import 'template/sections/subscribe';
+
+/*------------------- 4.19. forms  -------------------*/
+@import 'template/sections/forms';
+
+/*------------------- 4.20. forms  -------------------*/
+@import 'template/sections/pagination-v1';
+
+/*------------------- 4.21. comments -------------------*/
+@import 'template/sections/comments';
+
+/*------------------- 4.22. feature -------------------*/
+@import 'template/sections/feature';
+
+/*------------------- 4.23. contact -------------------*/
+@import 'template/sections/contact';
+
+/*------------------- 4.24. about -------------------*/
+@import 'template/sections/about';
+
+/*------------------- 4.25. cart -------------------*/
+@import 'template/sections/cart';
+
+/*------------------- 4.26. check out -------------------*/
+@import 'template/sections/checkout';
+
+
+
+
+
+
+
+/*=================================
+    05. Spacing
+==================================*/
+@import 'spacing/spacing';
+
+/*=================================
+    06. Pages
+==================================*/
+@import 'template/pages/home-v4';
+@import 'template/pages/home-v5'
+
+
+

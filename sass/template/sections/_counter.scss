@@ -1,0 +1,53 @@
+.counter-shape{
+   right: 0;
+   bottom: 0;
+}
+.counter-style1{
+   margin-top: -195px;
+   padding: 80px 0;
+}
+.counter-style2{
+   .media-style1{
+      padding-bottom: 120px;
+   }
+}
+.counter-shep1{
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   width: 140%;
+   border-radius: 30px 0 0 30px;
+   z-index: 0;
+}
+
+@include xl{
+   .counter-shep1{
+      width: 100%;
+      border-radius: 30px;
+   }
+}
+
+@include ml{
+   .counter-shep1{
+      width: 100%;
+      border-radius: 0px;
+   }
+}
+@include lg{
+   .counter-style1{
+      width: 100%;
+      border-radius: 0;
+   }
+   .counter-shep1{
+      border-radius: 0;
+      width: 100%;
+   }
+}
+@include md{
+   .counter-style2{
+      .media-style1{
+         padding-bottom: 0px;
+      }
+   }
+}
