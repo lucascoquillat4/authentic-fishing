@@ -10,23 +10,6 @@ Ce projet est un site web moderne de guide de pêche professionnelle. C'est actu
 
 ### Objectifs du Projet
 
-```
-🎯 Court terme (3 mois):
-- ✅ Mettre en ligne avec structure SEO correcte
-- ✅ Atteindre ranking premier page pour 5-10 mots-clés
-- ✅ Générer 500-1000 sessions organiques/mois
-
-🎯 Moyen terme (6-12 mois):
-- ✅ Atteindre 5000+ sessions/mois
-- ✅ 50-100 mots-clés ranking (incluant top 3)
-- ✅ Générer €5k-10k/mois en réservations/leads
-
-🎯 Long terme (2+ ans):
-- ✅ Devise d'autorité dans guide pêche France
-- ✅ 15,000+ sessions/mois
-- ✅ Revenue €20k+/mois
-```
-
 ---
 
 ## 🏗️ Structure du Projet
