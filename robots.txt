@@ -1,0 +1,36 @@
+# robots.txt - DavidC Guides de Pêche
+# Last Updated: 2026-02-27
+
+# Allow all robots by default
+User-agent: *
+Allow: /
+
+# Disallow admin and private directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /backup/
+
+# Disallow sensitive pages
+Disallow: /mail.php
+Disallow: /*.php
+
+# Disallow PDF search if needed (optional)
+# Disallow: *.pdf
+
+# Specific rules for Google
+User-agent: Googlebot
+Allow: /
+
+# Specific rules for Bing
+User-agent: Bingbot
+Allow: /
+
+# Specify sitemap
+Sitemap: https://davidc-peche.fr/sitemap.xml
+
+# Crawl delay (in seconds) - optional
+# Crawl-delay: 1
+
+# Request rate (pages per second) - optional
+# Request-rate: 1/1s
