@@ -29,7 +29,7 @@ Le site est hébergé via **GitHub Pages** (site statique).
   - 185.199.111.153  
 
 - CNAME :
-  - `www → username.github.io`
+  - `www → lucascoqquillat4.github.io`
 
 ---
 
@@ -44,7 +44,8 @@ Le site est hébergé via **GitHub Pages** (site statique).
 
 - HTML5  
 - CSS3  
-- JavaScript  
+- JavaScript
+- scss
 
 ---
 
