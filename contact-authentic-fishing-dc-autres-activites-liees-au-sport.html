@@ -280,7 +280,8 @@
     <!--==============================
     Contact Form Area
     ==============================-->
-    <section class="space-top space-extra-bottom">
+
+<section class="space-top space-extra-bottom">
   <div class="container">
     <div class="contact-form">
       <div class="title-area text-start mb-40">
@@ -291,85 +292,46 @@
 
       <div class="row">
         <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
-          <form
-            class="form-style2"
-            action="https://formspree.io/f/xeepqzvl"
-            method="POST"
-          >
+
+          <form id="contact-form" class="form-style2">
+
             <div class="row">
+
               <div class="col-md-6 form-group">
-                <input
-                  name="name"
-                  id="name"
-                  type="text"
-                  placeholder="Enter Your Name"
-                  required
-                >
+                <input name="name" id="name" type="text" placeholder="Enter Your Name" required>
               </div>
 
               <div class="col-md-6 form-group">
-                <input
-                  name="email"
-                  id="email"
-                  type="email"
-                  placeholder="Enter Your Email"
-                  required
-                >
+                <input name="email" id="email" type="email" placeholder="Enter Your Email" required>
               </div>
 
               <div class="col-md-6 form-group">
-                <select
-                  class="form-select"
-                  name="subject"
-                  id="subject"
-                  aria-label="Select Subject"
-                  required
-                >
+                <select class="form-select" name="subject" id="subject" required>
                   <option value="" selected disabled>Select Subject</option>
-                  <option value="Book your fishing trip">Book your Fishing Trip</option>
+                  <option value="Book your fishing trip">Book your fishing trip</option>
                   <option value="General question">General question</option>
                 </select>
               </div>
 
               <div class="col-md-6 form-group">
-                <input
-                  name="number"
-                  id="number"
-                  type="number"
-                  placeholder="Your phone number"
-                >
+                <input name="number" id="number" type="number" placeholder="Your number">
               </div>
 
               <div class="col-12 form-group">
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Your message"
-                  required
-                ></textarea>
+                <textarea name="message" id="message" placeholder="Your message" required></textarea>
               </div>
-
-              <input
-                type="hidden"
-                name="_subject"
-                value="New message from Authentic Fishing website"
-              >
-
-              <input
-                type="hidden"
-                name="_captcha"
-                value="false"
-              >
 
               <div class="col-12 form-group mb-2">
                 <button type="submit" class="vs-btn">Send Message</button>
               </div>
+
             </div>
 
-            <p class="form-messages mb-0 mt-3">
-              We usually reply as soon as possible.
-            </p>
+            <!-- ID important pour JS -->
+            <p id="form-messages" class="form-messages mb-0 mt-3"></p>
+
           </form>
+
         </div>
       </div>
     </div>
@@ -570,7 +532,9 @@
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
     <!-- Form -->
-    <script src="assets/js/form.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="assets/js/formcheck.js"></script>
+    
 </body>
 
 </html>
