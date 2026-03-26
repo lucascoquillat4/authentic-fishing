@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <!-- Homepage - Highest priority -->
     <url>
-        <loc>https://davidc-peche.fr/</loc>
+        <loc>https://authentic-fishing.com/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -10,7 +10,7 @@
     
     <!-- About Page -->
     <url>
-        <loc>https://davidc-peche.fr/about.html</loc>
+        <loc>https://authentic-fishing.com/about.html</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -18,7 +18,7 @@
     
     <!-- Services Page -->
     <url>
-        <loc>https://davidc-peche.fr/service.html</loc>
+        <loc>https://authentic-fishing.com/service.html</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
@@ -26,15 +26,15 @@
     
     <!-- Blog Listing Page -->
     <url>
-        <loc>https://davidc-peche.fr/blog.html</loc>
+        <loc>https://authentic-fishing.com/blog.html</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
-    <!-- Blog Article Example -->
+    <!-- Blog Article -->
     <url>
-        <loc>https://davidc-peche.fr/blog-details.html</loc>
+        <loc>https://authentic-fishing.com/blog-details.html</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -42,26 +42,17 @@
     
     <!-- Contact Page -->
     <url>
-        <loc>https://davidc-peche.fr/contact.html</loc>
+        <loc>https://authentic-fishing.com/contact.html</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     
-    <!-- FAQ Page (Future) -->
+
+    <!-- Blog Articles -->
     <!-- 
     <url>
-        <loc>https://davidc-peche.fr/faq.html</loc>
-        <lastmod>2026-03-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-    -->
-    
-    <!-- Blog Articles (Add as you create them) -->
-    <!-- 
-    <url>
-        <loc>https://davidc-peche.fr/blog/guide-peche-mouche-debutants.html</loc>
+        <loc>https://authentic-fishing.com.fr/blog/guide-peche-mouche-debutants.html</loc>
         <lastmod>2026-03-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
