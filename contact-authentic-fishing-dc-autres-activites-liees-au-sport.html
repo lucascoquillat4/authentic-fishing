@@ -281,49 +281,102 @@
     Contact Form Area
     ==============================-->
     <section class="space-top space-extra-bottom">
-        <div class="container">
-            <div class="contact-form">
-                <div class="title-area text-start mb-40">
-                    <span class="sec-subtitle">Contact With Us</span>
-                    <h2 class="third-title">Any Problem ? Send Us a Message !</h2>
-                    <div class="sec-line sec-line-left"></div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
-                        <form class="form-style2 ajax-contact" action="mail.php" method="POST">
-                            <div class="row">
-                                <div class="col-md-6 form-group">
-                                    <input name="name" id="name" type="text" placeholder="Enter Your Name">
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <input name="email" id="email" type="email" placeholder="Enter Your Email">
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <select class="form-select" name="subject" aria-label="Default select example">
-                                        <option selected>Select Subject</option>
-                                        <option value="1">Book your fishing trip</option>
-                                        <option value="2">General question</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 form-group">
-                                    <input name="number" id="number" type="number" placeholder="Your number">
-                                </div>
-                                <div class="col-12 form-group">
-                                    <textarea name="message" id="message" placeholder="Your message"></textarea>
-                                </div>
-                                <div class="col-12 form-group mb-2">
-                                    <button type="submit" class="vs-btn">Send Message</button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>                        
-                    </div>
-                </div>
+  <div class="container">
+    <div class="contact-form">
+      <div class="title-area text-start mb-40">
+        <span class="sec-subtitle">Contact With Us</span>
+        <h2 class="third-title">Any Problem ? Send Us a Message !</h2>
+        <div class="sec-line sec-line-left"></div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.4s">
+          <form
+            class="form-style2"
+            action="https://formspree.io/f/xeepqzvl"
+            method="POST"
+          >
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input
+                  name="name"
+                  id="name"
+                  type="text"
+                  placeholder="Enter Your Name"
+                  required
+                >
+              </div>
+
+              <div class="col-md-6 form-group">
+                <input
+                  name="email"
+                  id="email"
+                  type="email"
+                  placeholder="Enter Your Email"
+                  required
+                >
+              </div>
+
+              <div class="col-md-6 form-group">
+                <select
+                  class="form-select"
+                  name="subject"
+                  id="subject"
+                  aria-label="Select Subject"
+                  required
+                >
+                  <option value="" selected disabled>Select Subject</option>
+                  <option value="Book your fishing trip">Book your Fishing Trip</option>
+                  <option value="General question">General question</option>
+                </select>
+              </div>
+
+              <div class="col-md-6 form-group">
+                <input
+                  name="number"
+                  id="number"
+                  type="number"
+                  placeholder="Your phone number"
+                >
+              </div>
+
+              <div class="col-12 form-group">
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Your message"
+                  required
+                ></textarea>
+              </div>
+
+              <input
+                type="hidden"
+                name="_subject"
+                value="New message from Authentic Fishing website"
+              >
+
+              <input
+                type="hidden"
+                name="_captcha"
+                value="false"
+              >
+
+              <div class="col-12 form-group mb-2">
+                <button type="submit" class="vs-btn">Send Message</button>
+              </div>
             </div>
+
+            <p class="form-messages mb-0 mt-3">
+              We usually reply as soon as possible.
+            </p>
+          </form>
         </div>
-    </section>
+      </div>
+    </div>
+  </div>
+</section>
     <!--==============================
-    contace-box Area
+    contact-box Area
     ==============================-->
     <div class="">
         <div class="container">
