@@ -73,6 +73,47 @@
 </head>
 
 <body>
+
+    <!-- MAINTENANCE OVERLAY -->
+<div id="maintenance-overlay">
+  <div class="maintenance-content">
+    <h1>Site en maintenance</h1>
+    <p>Nous revenons très bientôt.</p>
+  </div>
+</div>
+
+<style>
+#maintenance-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85); /* voile sombre */
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.maintenance-content {
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.maintenance-content h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.maintenance-content p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+</style>
+<!-- MAINTENANCE OVERLAY -->
+ 
     <!--==============================
     Mobile Menu
     ============================== -->
