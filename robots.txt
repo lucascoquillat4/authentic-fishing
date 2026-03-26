@@ -1,4 +1,4 @@
-# robots.txt - DavidC Guides de Pêche
+# robots.txt - Authentic Fishing DC
 # Last Updated: 2026-02-27
 
 # Allow all robots by default
@@ -10,10 +10,6 @@ Disallow: /admin/
 Disallow: /private/
 Disallow: /temp/
 Disallow: /backup/
-
-# Disallow sensitive pages
-Disallow: /mail.php
-Disallow: /*.php
 
 # Disallow PDF search if needed (optional)
 # Disallow: *.pdf
@@ -27,7 +23,7 @@ User-agent: Bingbot
 Allow: /
 
 # Specify sitemap
-Sitemap: https://davidc-peche.fr/sitemap.xml
+Sitemap: https://authentic-fishing.com/sitemap.xml
 
 # Crawl delay (in seconds) - optional
 # Crawl-delay: 1
