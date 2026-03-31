@@ -51,7 +51,8 @@ Le site est hébergé via **GitHub Pages** (site statique).
 
 ## 📁 Organisation des fichiers
 
-/DavidC-Fishing WebSite/
+```
+/authentic-fishing DC/
 ├── index.html                    # Page d'accueil
 ├── about.html                    # À Propos + Team
 ├── service.html                  # Services détaillés
@@ -95,3 +96,4 @@ Le site est hébergé via **GitHub Pages** (site statique).
 │   ├── /fonts/                   # Fonts custom (si utilisées)
 │   └── /video/                   # Videos embedded
 └──
+```
