@@ -45,7 +45,7 @@ Code postal : 75011
 
 Ville : Paris
 
-Pays : France
+Pays : Francea
 
 Email : contact@simplebo.fr
 
