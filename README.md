@@ -89,11 +89,13 @@ Le site est hébergé via **GitHub Pages** (site statique).
 │   │   ├── /about/               # Images about page
 │   │   ├── /blog/                # Images blog
 │   │   ├── /brand/               # Logo, branding
-│   │   ├── /favicons/            # Favicon (plusieurs tailles)
+│   │   ├── /favicons/            # Favicon 
 │   │   ├── /service/             # Images services
 │   │   └── /...                  # Autres images
 │   │
-│   ├── /fonts/                   # Fonts custom (si utilisées)
+│   ├── /fonts/                   # Fonts custom 
 │   └── /video/                   # Videos embedded
 └──
 ```
+
+© Copyright 2026 - Lucas Coquillat
