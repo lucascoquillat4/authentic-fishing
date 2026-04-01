@@ -4770,7 +4770,16 @@ video {
   padding: 0 30px;
   margin-bottom: 14px;
   transition: all 0.5s ease;
+  text-align: center;
+  padding: 20px 0;
+
+
 }
+
+.service-style1 .service-text span {
+  text-align: center;
+}
+
 .service-style1:hover {
   background-color: var(--theme-color);
 }
@@ -10123,6 +10132,113 @@ span.select2-selection.select2-selection--single:focus {
 }
 .about-layout3 .explore-text {
   line-height: 200%;
+}
+
+/* Service Cards Sizing */
+section.space .container {
+  max-width: 75%;
+}
+
+section.space .service-style1 {
+  padding-bottom: 15px;
+  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 450px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section.space .service-style1 .service-img {
+  overflow: hidden;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+section.space .service-style1 .service-icon {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin: -45px auto 12px auto;
+}
+
+section.space .service-style1 .service-icon img {
+  font-size: 30px;
+}
+
+section.space .service-style1 .service-title {
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
+section.space .service-style1 .service-title:last-of-type {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+section.space .service-style1 .service-text {
+  flex-grow: 1;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-transform: none;
+  text-align: center;
+}
+
+section.space .service-style1 .service-text span {
+  text-align: center;
+}
+
+hr {
+  border: none; 
+  height: 3px; 
+  background-color: black;
+  width: 60%;
+}
+
+/* Smaller cards for service areas 2 and 3 */
+.service-area-2 .service-style1,
+.service-area-3 .service-style1 {
+  min-height: 250px;
+  padding-bottom: 12px;
+}
+
+.service-area-2 .service-style1 .service-img,
+.service-area-3 .service-style1 .service-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.service-area-2 .service-style1 .service-img img,
+.service-area-3 .service-style1 .service-img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.service-area-2 .service-style1 .service-icon,
+.service-area-3 .service-style1 .service-icon {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: -30px auto 8px auto;
+}
+
+.service-area-2 .service-style1 .service-title,
+.service-area-3 .service-style1 .service-title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.service-area-2 .service-style1 .service-text,
+.service-area-3 .service-style1 .service-text {
+  font-size: 13px;
+  line-height: 18px;
+  padding: 0 15px;
+  margin-bottom: 8px;
 }
 
 .service-layout4 {
