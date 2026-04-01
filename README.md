@@ -10,8 +10,7 @@ Ce site a pour but de :
 
 - Présenter le domaine et ses services  
 - Mettre en avant les différentes prestations (séjours, appâts, matériel…)  
-- Publier du contenu SEO (articles de blog)  
-- Générer des contacts clients  
+- Simplifier et fludifier le contact client
 
 ---
 
