@@ -5491,6 +5491,7 @@ video {
   font-family: var(--title-font);
   border-radius: 9999px;
   transition: all ease 0.4s;
+  white-space: nowrap;
 }
 .team_style2 .team_mail i {
   width: 38px;
@@ -5762,6 +5763,7 @@ video {
     margin-left: auto;
     margin-right: auto;
     padding-right: 20px;
+    white-space: nowrap;
   }
   .team_style2 .team_degi {
     margin: 0 0 15px 0;
@@ -10700,4 +10702,3 @@ hr {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
