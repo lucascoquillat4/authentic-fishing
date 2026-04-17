@@ -30,6 +30,9 @@ Le site est hébergé via **GitHub Pages** (site statique).
 - CNAME :
   - `www → lucascoqquillat4.github.io`
 
+- DOMAIN :
+  - `.com → https://authentic-fishing.com`
+
 ---
 
 ## 🔍 SEO & Indexation
