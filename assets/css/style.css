@@ -9750,7 +9750,7 @@ span.select2-selection.select2-selection--single:focus {
 /* Medium Large devices */
 @media (max-width: 1399px) {
   .media-body {
-    display: none;
+    display: block;
   }
 }
 /* Large devices */
