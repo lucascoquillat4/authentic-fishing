@@ -1,120 +1,156 @@
-Mentions légales
-Conformément aux dispositions des articles 6-III et 19 de la Loi n° 2004-575 du 21 juin 2004 pour la Confiance dans l'économie numérique, dite L.C.E.N., nous portons à la connaissance des utilisateurs et visiteurs du site www.authentic-fishing.com les informations suivantes :
+# Legal Notices
 
-1. Informations légales
-1.1. Editeur du Site
-Raison sociale : Authentic Fishing DC
+## 1. Legal Information
 
-Adresse du siège social : 8 avenue Jean Moulin
+### 1.1 Site Publisher
 
-Code postal : 89340
+* **Company name:** Authentic Fishing DC
+* **Registered office address:** 8 avenue Jean Moulin
+* **Post code:** 89340
+* **Town:** Champigny
+* **Phone:** 06 07 30 01 67
+* **Legal form:** SASU
+* **Share capital:** 50
 
-Ville : Champigny
+### 1.2 Activity
 
-Tél. : 0607300167
+* **Company registration number:** RCS Sens 887992915
+* **Intra-community VAT number:** Not provided
 
-Forme juridique : sasu
+### 1.3 Website
 
-Montant du capital social : 50
+The website is hosted on the domain: **[www.authentic-fishing.com](http://www.authentic-fishing.com)**
 
-1.2. Activité
-Numéro d'inscription au registre du commerce et des sociétés : RCS Sens 887992915
+### 1.4 Publication Manager
 
-N° TVA intracommunautaire : Non renseigné
+* **Publication manager:** David Coquillat
+* **Email:** [coquillat.david@sfr.fr](mailto:coquillat.david@sfr.fr)
+* **Phone:** 06 07 30 01 67
+* **Legal representative:** David Coquillat
+* **Jurisdiction in case of dispute:** Sens
 
-1.3. Site internet
-Le site internet est hébergé sur le domaine : www.authentic-fishing.com
+### 1.5 Agency / Webmaster
 
-1.4. Responsable de la publication
-Responsable de la publication : David Coquillat
+* **Contact:** Lucas Coquillat
+* **Address:** 9 Rue Saint Exupery
+* **Post code:** 78500
+* **Town:** Sartrouville
+* **Country:** France
+* **Email:** [lcoquillat4@gmail.com](mailto:lcoquillat4@gmail.com)
+* **Phone:** 06 24 01 13 10
 
-Email : coquillat.david@sfr.fr
+### 1.6 Hosting
 
-Tél. : 0607300167
+* **Company:** GitHub, Inc.
+* **Address:** 88 Colin P. Kelly Jr St
+* **Post code:** CA 94107
+* **City:** San Francisco
+* **Country:** United States
 
-Représentant légal de l'entreprise : David Coquillat
+## 2. Overview and Principles
 
-Ville du tribunal de compétence en cas de litige : Sens
+The term **User** refers to any internet user who accesses and uses the above-mentioned website: **[www.authentic-fishing.com](http://www.authentic-fishing.com)**.
 
-1.5. Agence / Webmaster
-Entreprise : Grapstor SAS
+Authentic Fishing DC makes every effort to provide the most accurate and up-to-date information possible on [www.authentic-fishing.com](http://www.authentic-fishing.com), but cannot guarantee the accuracy, completeness or timeliness of the information published on the site. Users should therefore verify the information and report any useful changes. Authentic Fishing DC is in no way responsible for how this information is used or for any direct or indirect damage that may result.
 
-Adresse : 43 boulevard Voltaire
+## 3. Accessibility
 
-Code postal : 75011
+The website [www.authentic-fishing.com](http://www.authentic-fishing.com) is, in principle, accessible to users 24/7, except for planned or unplanned interruptions required for maintenance or in cases of force majeure.
 
-Ville : Paris
+If access to the service is unavailable, Authentic Fishing DC will do everything possible to restore access. As this is only an obligation of means, Authentic Fishing DC cannot be held responsible for any damage, of any kind, resulting from the service being unavailable.
 
-Pays : Francea
+## 4. Intellectual Property
 
-Email : contact@simplebo.fr
+Authentic Fishing DC is the exclusive owner of all intellectual property rights or holds the rights of use over all elements accessible on the site, including the structure, text, images, graphics, logo, icons, sounds and software.
 
-Tél. : 01 84 17 49 76
+Any full or partial reproduction of the site [www.authentic-fishing.com](http://www.authentic-fishing.com), or any representation, modification, publication or adaptation of any of these elements, is prohibited unless prior written permission is obtained from Authentic Fishing DC.
 
-1.6. Hébergement
-Entreprise : Simplébo
+Otherwise, it will be considered infringement and may be prosecuted in accordance with Articles L.335-2 and following of the French Intellectual Property Code.
 
-Adresse : 43 boulevard Voltaire
+## 5. Hyperlinks and Cookies
 
-Code postal : 75011
+### 5.1 Hyperlinks
 
-Ville : Paris
+The site [www.authentic-fishing.com](http://www.authentic-fishing.com) may contain a number of hyperlinks to other websites.
 
-Pays : France
+Authentic Fishing DC has no means of controlling the sites linked to from its website and does not guarantee their availability. Authentic Fishing DC cannot be held responsible for any damage of any kind arising from the content of such external sites or sources, including the information, products or services they offer.
 
-Tél. : 01 84 17 49 76
+If you visit one of these sites, please note that they have their own privacy policy and that our responsibility ends once you leave our site.
 
-2. Présentation et principe
-Est désigné ci-après : Utilisateur, tout internaute se connectant et utilisant le site susnommé : www.authentic-fishing.com.
+Third-party website owners may not create a hyperlink to this site without the express prior permission of Authentic Fishing DC, which reserves the right to accept or refuse any hyperlink without providing justification.
 
-Authentic Fishing DC s’efforce de fournir sur le site www.authentic-fishing.com les informations les plus précises et à jour possibles (sous réserve de modifications apportées depuis leur mise en ligne), mais ne saurait garantir l'exactitude, la complétude et l'actualité des informations diffusées sur son site, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations. En conséquence, l'internaute devra donc s'assurer de l'exactitude des informations et signaler toutes modifications du site qu'il jugerait utile. Authentic Fishing DC n'est en aucun cas responsable de l'utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.
+### 5.2 Cookies
 
-3. Accessibilité
-Le site www.authentic-fishing.com est par principe accessible aux utilisateurs 24/24h, 7/7j, sauf interruption, programmée ou non, pour les besoins de sa maintenance ou en cas de force majeure. En cas d’impossibilité d’accès au service, Authentic Fishing DC s’engage à faire son maximum afin de rétablir l’accès au service. N’étant soumis qu’à une obligation de moyen, Authentic Fishing DC ne saurait être tenu pour responsable de tout dommage, quelle qu’en soit la nature, résultant d’une indisponibilité du service.
+Users are informed that when visiting [www.authentic-fishing.com](http://www.authentic-fishing.com), one or more cookies may be automatically installed on their computer through their browser software.
 
-4. Propriété intellectuelle
-Authentic Fishing DC est propriétaire exclusif de tous les droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, tant sur la structure que sur les textes, images, graphismes, logo, icônes, sons, logiciels…
+A cookie is a block of data that does not identify the user, but records information about their browsing on the site. It contains several data items stored on your computer in a simple text file that a server can access to read and record information.
 
-Toute reproduction totale ou partielle du site www.authentic-fishing.com, représentation, modification, publication, adaptation totale ou partielle de l'un quelconque de ces éléments est interdite, sauf autorisation écrite préalable de Authentic Fishing DC. À défaut, elle sera considérée comme constitutive d’une contrefaçon et passible de poursuite conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
+Browser settings can be used to notify you of the presence of cookies and, if necessary, refuse them as described at [www.cnil.fr](http://www.cnil.fr).
 
-5. Liens hypertextes et cookies
-5.1. Liens hypertexte
-Le site www.authentic-fishing.com peut contenir un certain nombre de liens hypertextes vers d’autres sites. Authentic Fishing DC ne dispose d'aucun moyen pour contrôler les sites en connexion avec son site internet et ne répond pas de la disponibilité de tels sites et sources externes, ni ne la garantit. Authentic Fishing DC ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent.
+### 5.3 Third-Party Cookies
 
-Si vous naviguez vers un de ces sites, veuillez noter qu’ils possèdent leur propre politique de confidentialité et que notre responsabilité s’arrête au moment où vous quittez notre site.
+Our site may contain links to or from partner sites and other third-party sites.
 
-Les propriétaires de sites internet tiers ne peuvent mettre en place un hyperlien en direction de ce site sans l'autorisation expresse et préalable de Authentic Fishing DC qui se réserve le droit d’accepter ou de refuser un hyperlien sans avoir à en justifier sa décision.
+If you visit one of these sites, please note that they have their own privacy policy and that our responsibility ends once you leave our site.
 
-5.2. Cookies
-L’utilisateur est informé que lors de ses visites sur le site www.authentic-fishing.com, un ou des cookies sont susceptibles de s’installer automatiquement sur son ordinateur par l'intermédiaire de son logiciel de navigation. Un cookie est un bloc de données qui ne permet pas d'identifier l'utilisateur, mais qui enregistre des informations relatives à la navigation de celui-ci sur le site. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations.
+Check privacy policies before providing your personal data to third-party sites.
 
-Le paramétrage du logiciel de navigation permet d’informer de la présence de cookie et éventuellement, de la refuser de la manière décrite à l’adresse suivante : www.cnil.fr.
+## 6. Protection of Goods and Persons – Personal Data Management
 
-5.3. Les cookies tiers
-Notre site peut contenir des liens vers ou depuis des sites partenaires et d’autres sites tiers. Si vous naviguez vers un de ces sites, veuillez noter qu’ils possèdent leur propre politique de confidentialité et que notre responsabilité s’arrête au moment où vous quittez notre site. Vérifiez les politiques de confidentialité avant de transmettre vos données personnelles à des sites tiers.
+The Client is informed of the regulations concerning marketing communications, the law of 21 June 2014 on trust in the digital economy, the French Data Protection Act of 6 August 2004, and the General Data Protection Regulation (GDPR: No. 2016-679).
 
-6. Protection des biens et des personnes - gestion des données personnelles
-Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
+### 6.1 Personal Data Controller
 
-6.1. Responsables de la collecte des données personnelles
-Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : Authentic Fishing DC. www.authentic-fishing.com est représenté par Authentic Fishing DC, son représentant légal.
+For Personal Data collected as part of creating the User's personal account and browsing the Site, the controller of Personal Data is Authentic Fishing DC. [www.authentic-fishing.com](http://www.authentic-fishing.com) is represented by Authentic Fishing DC, its legal representative.
 
-En tant que responsable du traitement des données qu’il collecte, www.authentic-fishing.com s’engage à respecter le cadre des dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements, une information complète sur le traitement de leurs données personnelles et de maintenir un registre des traitements conforme à la réalité. Chaque fois que www.authentic-fishing.com traite des Données Personnelles, www.authentic-fishing.com prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des Données Personnelles au regard des finalités pour lesquelles www.authentic-fishing.com les traite.
+As the controller of the data it collects, [www.authentic-fishing.com](http://www.authentic-fishing.com) undertakes to comply with the applicable legal framework.
 
-6.2. Finalité des données collectées
-www.authentic-fishing.com est susceptible de traiter tout ou partie des données :
+In particular, the Client must define the purposes of its data processing, provide prospects and customers with complete information about how their personal data is processed based on consent, and maintain a register of processing activities that reflects reality.
 
-pour permettre la navigation sur le Site et la connexion à l'espace privée par l’utilisateur : données de connexion et d’utilisation du Site
-pour prévenir et lutter contre la fraude informatique (spamming, hacking…) : matériel informatique utilisé pour la navigation, l’adresse IP, pages visitées
-pour améliorer la navigation sur le Site : données de connexion et d’utilisation
-www.authentic-fishing.com ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses.
+Whenever [www.authentic-fishing.com](http://www.authentic-fishing.com) processes Personal Data, it takes all reasonable measures to ensure the accuracy and relevance of the Personal Data in relation to the purposes for which it is processed.
 
-7- Limitation de responsabilité
-Les informations contenues sur ce site sont aussi précises que possible et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui paraît être un dysfonctionnement, merci de bien vouloir le signaler par email en décrivant le problème de la manière la plus précise possible (page posant problème, action déclenchante, type d’ordinateur et de navigateur utilisé, …). www.authentic-fishing.com ne peut pas être tenu responsable des lacunes, erreurs ou dysfonctionnement engendrés.
+### 6.2 Purpose of the Collected Data
 
-Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. Par conséquent, Authentic Fishing DC ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement.
+[www.authentic-fishing.com](http://www.authentic-fishing.com) may process some or all of the following data:
 
-Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Authentic Fishing DC.
+* To enable browsing of the Site and access to the private area by the user: login and Site usage data.
+* To prevent and combat computer fraud (spamming, hacking, etc.): device used for browsing, IP address, pages visited.
+* To improve browsing on the Site: login and usage data.
 
-A propos des mentions légales :
-Les mentions légales définies sur cette page s'appliquent à l'ensemble du présent site internet et sont susceptibles d'évoluer sans préavis. L'Utilisateur du site est donc invité à les consulter régulièrement afin d'en prendre connaissance.
+[www.authentic-fishing.com](http://www.authentic-fishing.com) does not sell your personal data, which is only used when necessary or for statistical and analytical purposes.
+
+## 7. Limitation of Liability
+
+The information on this site is as accurate as possible and the site is updated periodically, but it may still contain inaccuracies, omissions or gaps.
+
+If you notice any omission, error or apparent malfunction, please report it by email and describe the problem as precisely as possible. [www.authentic-fishing.com](http://www.authentic-fishing.com) cannot be held responsible for any such omissions, errors or malfunctions.
+
+Any content downloaded is done at the user's own risk and under their sole responsibility. Consequently, Authentic Fishing DC cannot be held responsible for any damage suffered by the user's computer or any data loss resulting from the download.
+
+Hyperlinks created on this website to other resources on the Internet cannot engage the liability of Authentic Fishing DC.
+
+## About These Legal Notices
+
+The legal notices on this page apply to the entire website and may change without notice.
+
+Users are therefore invited to consult them regularly.
+
+---
+
+# Authentic Fishing DC
+
+International specimen carp, catfish, sturgeon and predator fishing center.
+
+**Address:** Chemin rural n° 18 de la Noue, 89340 Villeneuve-la-Guyard
+
+**Phone:** (+33) 6 07 30 01 67
+
+**Email:** [coquillat.david@sfr.fr](mailto:coquillat.david@sfr.fr)
+
+## Follow Us
+
+Stay informed about our latest news.
+
+**Copyright 2026 – Designed by Lucas**
+
+**Legal Notices**
