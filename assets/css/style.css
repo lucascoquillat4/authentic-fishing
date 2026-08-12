@@ -9097,7 +9097,7 @@ span.select2-selection.select2-selection--single:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 330px;
+  max-width: 400px;
 }
 .explore-list1 li {
   position: relative;
