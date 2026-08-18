@@ -58,8 +58,6 @@ Le site est hébergé via **GitHub Pages** (site statique).
 ├── index.html                    # Page d'accueil
 ├── about.html                    # À Propos + Team
 ├── service.html                  # Services détaillés
-├── blog.html                     # Liste articles
-├── blog-details.html             # Article détaillé
 ├── contact.html                  # Formulaire contact + infos
 ├── sitemap.xml                   # Sitemap pour SEO
 ├── robots.txt                    # Instructions robots
