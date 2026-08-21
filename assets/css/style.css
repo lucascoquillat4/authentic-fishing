@@ -9388,7 +9388,8 @@ span.select2-selection.select2-selection--single:focus {
   position: relative;
   z-index: 1;
 }
-.service_style4 .service_inner:hover .accordion-body p {
+.service_style4 .service_inner:hover .accordion-body,
+.service_style4 .service_inner:hover .accordion-body * {
   color: var(--white-color);
 }
 .service_style4 .service_inner:hover .service_title {

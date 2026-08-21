@@ -511,7 +511,7 @@
          .accordion-body{
             position: relative;
             z-index: 1;
-            p{
+            &, *{
                color: $white-color;
             }
          }
