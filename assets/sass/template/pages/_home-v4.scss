@@ -486,6 +486,9 @@
        &:hover{
           border-radius: 85px;
           background-color: transparent;
+          .accordion-button{
+            color: $white-color;
+         }
          .image-hover{
             visibility: visible;
             opacity: 1;

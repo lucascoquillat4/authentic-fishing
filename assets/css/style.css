@@ -9366,6 +9366,11 @@ span.select2-selection.select2-selection--single:focus {
   border-radius: 85px;
   background-color: transparent;
 }
+
+.service_style4 .service_inner:hover .accordion-button {
+  color: var(--white-color);
+}
+
 .service_style4 .service_inner:hover .image-hover {
   visibility: visible;
   opacity: 1;
