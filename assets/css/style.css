@@ -2314,6 +2314,8 @@ a.text-theme:hover,
   animation-name: ripple;
 }
 
+/* MAINTENANCE OVERLAY (TOP) */
+
 @keyframes sectionLine {
   0% {
     left: -60px;
