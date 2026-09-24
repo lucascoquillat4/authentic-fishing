@@ -1,7 +1,13 @@
 # 🎣 Authentic Fishing DC — Site Web
 
-Site vitrine + blog dédié au domaine **Authentic Fishing DC**, centre de pêche sportive spécialisé dans la carpe, le silure, l’esturgeon et les carnassiers.
+Site vitrine + blog dédié au domaine **Authentic Fishing DC**, centre de pêche sportive spécialisé dans la carpe, l’esturgeon et les carnassiers.
 
+---
+
+## ⚠️ Changement de serveur
+
+- En raison du changement prochain de serveur de **GitHub** vers un serveur privé, certaines informations contenues dans ce dépôt pourraient être erronées, bien que le code source sera maintenu à jour.
+  
 ---
 
 ## 🌐 Objectif du projet
@@ -19,7 +25,7 @@ Ce site a pour but de :
 
 Le site est hébergé via **GitHub Pages** (site statique).
 
-### Configuration DNS (Namecheap)
+### Configuration DNS
 
 - A records :
   - 185.199.108.153  
